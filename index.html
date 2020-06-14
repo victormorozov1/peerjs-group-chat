@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Peerjs group chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.16/peer.min.js"></script>
+</head>
+<body>
+	<h3>Мой ID: <span id=myid ></span></h3>
+	<input id=otherPeerId type=text placeholder="otherPeerId" ><button onclick="connectToNode(document.getElementById('otherPeerId').value)">Соединиться</button>
+	<div id=messages style="width:400px;height:60vh; background:#ADD8E6;margin:5px;">
+	</div><br>
+	<textarea id=mess style="width:400px;height:15vh" ></textarea><br>
+	<button onclick="sendMess(document.getElementById('mess'))">Отправить</button>
+	<script src="main.js"></script>
+</body>
