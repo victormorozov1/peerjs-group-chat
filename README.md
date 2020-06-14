@@ -1,3 +1,3 @@
-# Online game "Var of Viruses" on Flask and Socket.io
+# Peerjs group chat
 
-demo https://war-of-viruses.herokuapp.com/
+demo http://peerjs-group-chat.herokuapp.com
